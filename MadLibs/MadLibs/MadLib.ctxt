@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MadLib
+comment1.params=phrase
+comment1.target=MadLib(java.lang.String)
+comment1.text=\n\ Constructor\ for\ the\ <code>MadLib\ class.\n\ Accepts\ a\ phrase\ that\ can\ be\ parsed\ as\ a\ MadLib\ riddle.\n\ Labels\ or\ parts\ of\ speech\ that\ will\ be\ substituted\ are\ assumed\ to\ be\ enclosed\ in\ <\ ...\ >\ tags.\n\ <p>\n\ Post-conditions\:\n\ \ \ \ <blockquote>\n\ \ \ \ The\ <code>story</code>\ variable\ contains\ a\ tag-substituted\ version\ of\ the\ <code>riddle</code>\ variable\n\ \ \ \ </blockquote>\n\ </p>\n\ \n\ @param\ phrase\ \ The\ tagged\ text\ of\ the\ riddle\n
+comment2.params=ml
+comment2.target=java.lang.String\ getRiddle(java.lang.String)
+comment2.text=\n\ Accessor\ method\ for\ the\ <code>riddle</code>\ instance\ variable.\n\ \n\ @return\ \ The\ current\ value\ of\ the\ <code>riddle</code>\ variable\n
+comment3.params=phrase
+comment3.target=void\ setRiddle(java.lang.String)
+comment3.text=\n\ Mutator\ method\ for\ the\ <code>riddle</code>\ instance\ variable.\n\ Sets\ the\ value\ of\ the\ <code>riddle</code>\ variable.\n\ Calls\ the\ <code>generateStory</code>\ method\ to\ convert\ the\ riddle\ to\ a\ story\n\ <p>\n\ Post-conditions\:\n\ \ \ \ <blockquote>\n\ \ \ \ The\ <code>story</code>\ variable\ contains\ a\ tag-substituted\ version\ of\ the\ <code>riddle</code>\ variable\n\ \ \ \ </blockquote>\n\ </p>\n\ \n\ @param\ phrase\ \ The\ tagged\ text\ of\ the\ riddle\n
+comment4.params=
+comment4.target=java.lang.String\ getStory()
+comment4.text=\n\ Accessor\ method\ for\ the\ <code>story</code>\ instance\ variable.\n\ \n\ @return\ \ The\ current\ value\ of\ the\ <code>story</code>\ variable.\n
+comment5.params=
+comment5.target=void\ generateStory()
+comment5.text=\n\ Converts\ a\ MadLib\ riddle\ to\ a\ story.\n\ Copies\ the\ <code>riddle</code>\ variable\ to\ the\ story\ variable.\n\ Parses\ the\ <code>story</code>\ variable\ for\ parts\ of\ speech\ enclosed\ in\ <\ ...\ >\ tags\n\ Prompts\ the\ user\ to\ enter\ a\ label\ or\ part\ of\ speech\ as\ indicated\ and\ replaces\ the\ tag\ with\ the\ user\ input.\n\ Loops\ through\ the\ <code>story</code>\ variable\ until\ all\ all\ tags\ have\ been\ replaced.\n\ <p>\n\ Pre-conditions\:\n\ \ \ \ <blockquote>\n\ \ \ \ Each\ opening\ &lt;\ is\ matched\ by\ a\ closing\ &gt;\n\ \ \ \ <br>\n\ \ \ \ Labels\ and\ parts\ of\ speech\ enclosed\ in\ &lt;\ ...\ &gt;\ are\ valid\n\ \ \ \ </blockquote>\n\ </p>\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ <code>toString</code>\ method\ for\ the\ <code>Madlib</code>\ class.\n\ \n\ @return\ \ The\ current\ value\ of\ the\ <code>story</code>\ variable.\n
+numComments=7
